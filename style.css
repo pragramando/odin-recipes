@@ -9,14 +9,37 @@ body{
     text-align: center;
     display: flex;
     flex-direction: column;
+    line-height: 1px;
 }
 .lista{
     float: right;
     font-size: 30px;
     line-height: 52pt;
-    list-style-type: square;
+    list-style-type: none;
+    color:#C30F16;   
+    font-weight: 700; 
 }
 
+h1{
+    font-size: 40px;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+    
+}
+a:hover {
+    color: green;
+}
 .corpo{
     display:inline-block;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
 }

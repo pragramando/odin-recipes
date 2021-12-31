@@ -1,0 +1,22 @@
+body{
+    font-family: "Mrs Eaves", sans-serif;
+    margin: 0;
+    background-color: #C1A52080
+}
+
+.header {
+    color: #C30F16;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.lista{
+    float: right;
+    font-size: 30px;
+    line-height: 52pt;
+    list-style-type: square;
+}
+
+.corpo{
+    display:inline-block;
+}

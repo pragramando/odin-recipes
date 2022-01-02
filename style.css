@@ -12,12 +12,17 @@ body{
     line-height: 1px;
 }
 .lista{
+    margin-top: 200px;
     float: right;
     font-size: 30px;
     line-height: 52pt;
     list-style-type: none;
     color:#C30F16;   
     font-weight: 700; 
+}
+
+img{
+    margin-top: 100px;
 }
 
 h1{
@@ -33,7 +38,7 @@ a:hover {
     color: green;
 }
 .corpo{
-    display:inline-block;   
+    display:flex;   
 }
 
 .float-right{
